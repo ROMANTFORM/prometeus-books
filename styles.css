@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    color: #030303;
+}
+.btn{
+    border: none;
+    border-radius: 7px;
+    padding: 9px 12px;
+    cursor: pointer;
+    transition: opacity 200ms linear;
+}
+.btn:hover{
+    opacity: 0.8;
+    transition: opacity 200ms linear;
+}
+.header{
+    padding: 20px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid black;
+}
+.header__controls-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 25%;
+}
+.header__basket{
+    margin-left: 20px;
+}
+.header__sign-btn{
+    background-color: #c1c1c1;
+}
+.header__user-container{
+    display: flex;
+    align-items: center;
+}
+.header__user-avatar{
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 1px solid black;
+    margin-right: 6px;
+}
+
+
+/* ----------------------- MAIN ------------------- */
+.main{
+    padding: 20px 30px;
+    background-image: url('./images/leadership-books.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card-book__contaier {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 100vh;
+}
+.card-book__img-wraper {
+    width: 400px;
+    height: auto;
+}
+.card-book__img {
+    width: 100%;
+    margin-bottom: 10px;
+}
+.card-book__description {
+}
+.card-book__info-wraper {
+    flex-grow: 1;
+    padding: 0 20px;
+}
+.card-book__info {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+.card-book__info:nth-child(1){
+    font-weight: bold;
+}
+.card-book__price-wraper {
+    width: 300px;
+}
+.card-book__price-container, 
+.card-book__count-container, 
+.card-book__total-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 12px;
+    background-color: #c1c1c1;
+    border-radius: 7px;
+    padding: 10px;
+}
+.card-book__count-container {
+}
+.card-book__counter {
+}
+.card-book__counter-minus,
+.card-book__counter-value,
+.card-book__counter-plus {
+    font-size: 20px;
+}
+.card-book__counter-value {
+}
+.card-book__counter-plus {
+}
+.card-book__total-container {
+}
+.card-book__count-btn{
+    background-color: green;
+    color: #f1f1f1;
+}
